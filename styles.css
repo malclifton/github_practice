@@ -20,12 +20,3 @@ h1 {
    text-shadow: 5px 5px 6px gray;
 }
 
-p {
-   color: white;
-   width: 350px;
-   font-size: 16px;
-   padding: 10px;
-   background: linear-gradient(to bottom right, darkblue, skyblue);
-   box-shadow: 5px 5px 6px gray;
-   border-radius: 5px 
-}
