@@ -1,39 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <title>Yesterday</title>
-   <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PetPal - For All Your Pet Needs</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet" />
 </head>
 
 <body>
-   <h1>Yesterday</h1>
-   <main>
-      <p>
-         Yesterday,<br> 
-         All those backups seemed a waste of pay.<br>
-         Now my database has gone away.<br>
-         Oh I believe in yesterday.
-      </p>
-      <p>
-         Suddenly,<br>
-         There's not half the files there used to be,<br>
-         And there's a milestone hanging over me.<br> 
-         The system crashed so suddenly.
-      <p>
-         I pushed something wrong,<br>
-         What it was I could not say.<br>
-         Now all my data's gone<br>
-         And I long for yesterday-ay-ay-ay.
-      </p>
-      <p>
-         Yesterday,<br> 
-         The need for back-ups seemed so far away.<br>
-         I knew my data was all here to stay,<br>
-         Now I believe in yesterday.
-      </p>
-      <p>
-         <a href="https://www2.informatik.uni-hamburg.de/fachschaft/bits/archiv/114_ws98/node11.html">Source</a>
-      </p>
-   </main>
+    <div class="page-container">
+        <div class="content-wrapper">
+            <header class="main-header">
+                <div class="logo-container">
+                    <h1 class="logo-text">petpal</h1>
+                    <p class="tagline">F O R A L L Y O U R P E T N E E D S</p>
+                </div>
+
+                <nav class="main-nav">
+                    <ul class="nav-links">
+                        <li class="nav-item"><a href="./index.html">Home</a></li>
+                        <li class="nav-item"><a href="#about">About</a></li>
+                        <li class="nav-item"><a href="#reviews">Reviews</a></li>
+                        <li class="nav-item">
+                            <a href="#account">Account</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="header-actions">
+                    <button class="login-button" onclick="window.location.href = './signUp.html';">
+                        <span class="login-text">Register</span>
+                    </button>
+                    <button class="login-button" onclick="window.location.href = './signIn.html';">
+                        <span class="login-text">Login</span>
+                    </button>
+                </div>
+            </header>
+            <img src="./img/main_background.png" class="hero-image" alt="Pet with owner" />
+
+            <main class="hero-section">
+
+                <div class="hero-content">
+                    <h2 class="hero-title">
+                        Pets may only be a part of<br />
+                        our lives, but to them we
+                    </h2>
+                    <p class="hero-subtitle">
+                        are their whole world . Let's
+                    </p>
+                    <p class="hero-cta">make it count !</p>
+
+                    <div class="action-buttons">
+                        <button class="action-button">T E X T</button>
+                        <button class="action-button">T E X T</button>
+                        <button class="action-button">T E X T</button>
+                        <button class="action-button">T E X T</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
 </body>
+
 </html>
